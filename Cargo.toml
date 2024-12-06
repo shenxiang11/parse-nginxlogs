@@ -1,0 +1,10 @@
+[package]
+name = "parse_nginx_logs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "1.0.94" }
+arrow = { version = "53.3.0" }
+parquet = { version = "53.3.0" }
+regex = { version = "1.11.1" }
